@@ -9,9 +9,6 @@ app.get('/', (req, res) => {
   });
 });
 
-//GET /users
-// Give users a name property and an age property.
-
 app.get('/users', (req, res) => {
   res.send([{
     name: 'Chandler',
